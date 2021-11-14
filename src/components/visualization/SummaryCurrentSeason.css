@@ -1,0 +1,74 @@
+.sum-task-record-box {
+  text-align: center;
+}
+
+.container {
+  font-family: "Kanit", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p6 {
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+p2 {
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.row-2 {
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .row-1 h2 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .income-box h2 {
+    font-size: 15px;
+  }
+  .outcome-box h2 {
+    font-size: 15px;
+  }
+  .row-2 {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .ant-row .row-2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .row-1 h2 {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .income-box h2 {
+    font-size: 15px;
+  }
+  .outcome-box h2 {
+    font-size: 15px;
+  }
+  .row-2 {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .ant-row .row-2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,30 @@
+.table-1 {
+  margin-bottom: 21rem;
+}
+.row-container {
+  display: flex;
+  flex-direction: column;
+}
+.search-selection {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .ant-col p {
+    font-size: 2rem;
+  }
+
+  .ant-select {
+    font-size: 1rem;
+  }
+  .ant-table-tbody {
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td,
+  .ant-table tfoot > tr > th,
+  .ant-table tfoot > tr > td {
+    padding: 10px 10px;
+  }
+}

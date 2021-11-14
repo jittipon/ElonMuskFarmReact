@@ -1,0 +1,25 @@
+.icon-durian {
+  width: 20%;
+  height: 20%;
+}
+
+.welcome-text1 {
+  font-size: 80px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+
+.welcome-text2 {
+  font-size: 30px;
+  font-family: "Kanit", sans-serif;
+}
+
+.btn-durian {
+  font-family: "Kanit", sans-serif;
+  margin-bottom: 15rem;
+}
+@media screen and (max-width: 480px) {
+  .welcome-text1 {
+    font-size: 60px;
+  }
+}

@@ -1,0 +1,63 @@
+.container-about {
+  background: white;
+  color: black;
+  width: 80%;
+  height: 80vh;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Kanit", sans-serif;
+  align-items: center;
+}
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: "Kanit", sans-serif;
+}
+
+.responsive-map-container {
+  align-items: center;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.tel-num {
+  font-size: 1.5rem;
+}
+.address {
+  font-size: 1.5rem;
+}
+.responsive-map-container iframe,
+.responsive-map-container object,
+.responsive-map-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .tel-num {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .address {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .responsive-map-container iframe,
+  .responsive-map-container object,
+  .responsive-map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

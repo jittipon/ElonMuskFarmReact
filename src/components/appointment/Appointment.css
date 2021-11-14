@@ -1,0 +1,10 @@
+.row-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-selection {
+  margin-bottom: 1rem;
+}
+.green-btn {
+}

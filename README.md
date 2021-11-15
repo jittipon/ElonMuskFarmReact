@@ -1,4 +1,4 @@
-# myreactProject 
+# myreactproject 
 
 Only have frontend component didn't connect with DB
 

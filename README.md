@@ -1,6 +1,6 @@
 # myreactproject 
 
-Only have frontend component didn't connect with DB
+Only have frontend component didn't connect with DB include responsive 
 
 DEMO 
 https://react-elonmusk-frontend.netlify.app/
